@@ -7,3 +7,12 @@ This repository contains my solutions to the problems majorly focused towards co
 # How to Contribute
 You can feel free to add or optimize any solution i've provided or wrongly done, for that please feel free to fork the repo and
 open pull request for the effecient solution you know about for the problem :)
+
+# Language in which solution is coded
+1.) Java (initially)
+
+# Future Scope 
+Updating solutions in other languages inculding , but not limited to
+1.) Python
+2.) JavaScript
+3.) C++
