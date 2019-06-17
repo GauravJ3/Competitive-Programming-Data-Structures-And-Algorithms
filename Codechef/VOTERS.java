@@ -5,9 +5,7 @@
 */
 /*
 Example
-
 Sample input:
-
 5 6 5
 23
 30
@@ -26,7 +24,6 @@ Sample input:
 57 
 90 
 Sample output:
-
 5
 21 
 23 
