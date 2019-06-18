@@ -35,5 +35,6 @@ class MXZERO {
 				System.out.println(count0);
 			}
 		}
+		kb.close();
 	}
 }

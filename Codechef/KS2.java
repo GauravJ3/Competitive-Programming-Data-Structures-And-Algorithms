@@ -1,30 +1,35 @@
 /*
 	Codechef June Long Challenge
-	Problem Link :- https://www.codechef.com/JUNE19B/problems/RSIGNS
+	Problem Link :- https://www.codechef.com/JUNE19B/problems/KS2
 	Time Complexity :-  O(logK) as we are in worst case diving by 2 everytime.
 */
 import java.io.*;
-import java.util.*;
+import java.math.*;
 class KS2 {
-	public static long calPow(long k, long a) {
-		final long MOD = 1000000007;
-		// calculate pow 2**k
-		if (k == 0) return 1;
-		if (k%2 != 0) {
-			return a*(calPow((k-1)/2, (a*a)%MOD))%MOD; 
-		}
-		return calPow(k/2, (a*a)%MOD);
-	}
-	public static void main(String[] args) throws IOException{
+	public static void main(String[] args) throws IOException {
 		BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
-		int T = Integer.parseInt(bf.readLine());
-		while (T-- > 0) {
-			long k = Integer.parseInt(bf.readLine());
-			long a = 2;
-			long ans = calPow(k-1, a); // 2**(k-1)
-			ans = ans*10;
-			ans = ans%(long)(Math.pow(10,9)+7);
-			System.out.println(ans);	
-		}
+		int t = Integer.parseInt(bf.readLine());
+		long ten = 10;
+		while (t-- > 0) {
+			long n = Long.parseLong(bf.readLine());
+			// n -> 2 ans -> 28
+			int sum = 0; // calculate the sum of digits
+			long a = n; // 2
+			while (n > 0) {
+				sum += (n % 10);
+				n = n/10;
+			}
+			// sum -> 1
+			long tmp = (ten-(sum%ten))%ten;
+			BigInteger ans = new BigInteger("10");
+			BigInteger m = new BigInteger(String.valueOf(a));
+			// System.out.println("ans " + ans + " a " + a);
+			ans = ans.multiply(m);
+			long temp = tmp%10; 
+			// System.out.println(temp);
+			BigInteger b = new BigInteger(String.valueOf(temp));
+			ans = ans.add(b);
+			System.out.println(ans);
+		}		
 	}
 }

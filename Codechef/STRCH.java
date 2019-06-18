@@ -11,13 +11,13 @@ class HUNGALGO {
 			int [][]mat = new int[n][n];
 			
 			for (int i = 0; i < n; i++) {
-				for (int i = 0; i < n; i++) {
+				for (int j = 0; j < n; j++) {
 					mat[i][j] = kb.nextInt();
  				}
 			}
 			int tmp =0;
 			for (int i = 0; i < n; i++) {
-				for (int i = 0; i < n; i++) {
+				for (int j = 0; j < n; j++) {
 					if (mat[i][j] == 0) {
 						for (int k = 0; k < n; k++)
 							if (mat[k][i] == 0)
@@ -32,5 +32,6 @@ class HUNGALGO {
 			}
 
 		}
+		kb.close();
 	}
 }

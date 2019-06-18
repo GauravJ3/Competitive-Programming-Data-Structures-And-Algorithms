@@ -30,5 +30,6 @@ class Potatoes {
 			int ans = findNextPrime(sum);
 			System.out.println(ans - sum);				
 		}
+		kb.close();
 	}
 }

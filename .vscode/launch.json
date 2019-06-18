@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - HUNGALGO",
+            "request": "launch",
+            "mainClass": "HUNGALGO",
+            "projectName": "Algorithms and DataStructure_b0be865e"
+        }
+    ]
+}
