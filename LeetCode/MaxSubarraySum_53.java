@@ -1,7 +1,7 @@
 import java.util.Scanner;
 // Approach #1
 // Using Kadane's Algorithm
-
+// Time Complexity -> O(N)
 class MaxSubarraySum_53 {
     public static int maxSubArray(int[] nums) {
         // check if all the elements are 0 or not
