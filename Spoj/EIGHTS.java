@@ -5,10 +5,13 @@ Tag :- Easy
 class EIGHTS {
 	public static void main(String[] args) {
 		Scanner kb = new Scanner(System.in);
-		int N = kb.nextInt();
-		while (N-->0) {
-			long K = kb.nextLong();
-			long ans = 192 + (K-1)*250;
+		float N;
+		while ((N=kb.nextFloat())!=0.00) {
+			int cards = 1;
+			float f = 0.5;
+			while (f < N) {
+				f = f + (1/(++cards)+1);
+			}
 			System.out.println(ans);
 		}
 	}

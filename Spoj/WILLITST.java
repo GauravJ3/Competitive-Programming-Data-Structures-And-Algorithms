@@ -1,8 +1,10 @@
 /*
+3 4 2 1 5 3 4 2 1 5
 prob link:- https://www.spoj.com/problems/WILLITST/
 idea :- idea here is to check if num is power of 2 or not
 Simple way to check the above is do check
 num&(num-1) == 0 or not
+
 */
 import java.util.*;
 class WILLITST {
