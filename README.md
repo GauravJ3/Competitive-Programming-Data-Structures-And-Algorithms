@@ -2,17 +2,18 @@
 This repository contains my solutions to the problems majorly focused towards competitive programming as well as Common interview Questions.
 
 # This Repo includes solutions form sites:
-1.) Geeks For Geeks  2.) CodeChef  3.) InterviewBit  4.) Spoj .. etc  
+1.) Geeks For Geeks  2.) CodeChef  3.) InterviewBit  4.) Spoj 5.) Leetcode .. etc  
 
 # How to Contribute
-You can feel free to add or optimize any solution i've provided or wrongly done, for that please feel free to fork the repo and
-open pull request for the effecient solution you know about for the problem :)
+Feel free to add / optimize any solution i've provided, for that please fork the repo, make a copy of that into your local machine, create a new branch for yourself and
+open up a pull request for the same:)
 
 # Language in which solution is coded
 1.) Java (initially)
+2.) Python (initial phase..)
 
 # Future Scope 
 Updating solutions in other languages inculding , but not limited to
-1.) Python
+1.) Python (Doing it..)
 2.) JavaScript
 3.) C++
