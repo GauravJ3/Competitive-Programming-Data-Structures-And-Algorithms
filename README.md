@@ -7,6 +7,17 @@ This repository contains my solutions to the problems majorly focused towards co
 # How to Contribute
 Feel free to add / optimize any solution i've provided, for that please fork the repo, make a copy of that into your local machine, create a new branch for yourself and
 open up a pull request for the same:)
+Clone it to your local system
+
+Make a new branch
+
+Make your changes
+
+Push it back to your repo
+
+Click the Compare & pull request button
+
+Click Create pull request to open a new pull request
 
 # Language in which solution is coded
 1.) Java (initially)
